@@ -3,9 +3,7 @@ import LoginLocal from './Login.local';
 import { logIn, logOut } from '../../reducer/user';
 
 export default connect(
-  state => ({
-    user: state.user
-  }),
+  ({ user }) => ({ user }),
   dispatch => ({
     logIn: credentials =>
       dispatch(logIn(credentials)),
