@@ -17,10 +17,11 @@ Here's how to start using me:
 
 1. Fork your own copy of me
 2. Create your app on [Firebase](https://firebase.google.com/)
-3. Record your apiKey, authDomain, databaseUrl, and messagingSendId
-4. Copy the above into the config object in my `app/db.js` file
-5. `npm install`
-6. `npm start` (this uses webpack-dev-server)
+3. Enable email/password authentication (under Authentication/Sign-In Method from your app's dashboard)
+4. Record your apiKey, authDomain, databaseUrl, and messagingSendId
+5. Copy the above into the config object in my `app/db.js` file
+6. `npm install`
+7. `npm start` (this uses webpack-dev-server)
 
 I think this is the beginning of a beautiful friendship.
 If you notice any issues, please put them here in my GitHub.
