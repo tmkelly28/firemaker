@@ -1,6 +1,8 @@
 Hi there! I'm a starting point for simple React applications that want to use Firebase.
 That's right - I'm a full-front end app using a realtime cloud database for everything!
 
+<img width="761" alt="screen shot 2016-11-14 at 9 15 32 am" src="https://cloud.githubusercontent.com/assets/12876798/20267994/3cae17c0-aa4b-11e6-9960-43743d49237d.png">
+
 But really, I'm just looking for a good home.
 
 I don't have that many opinions, but here they are:
