@@ -8,10 +8,12 @@ I don't have that many opinions, but here they are:
 - I prefer that you use [redux-thunk](https://github.com/gaearon/redux-thunk) to handle asynchronicity
 - I prefer the [ducks](https://github.com/erikras/ducks-modular-redux) approach to organizing your redux code
 
-Gee, I hope that's okay.
+Gee, I hope that's okay. You can change them if you want...it's just that's what I come with out the box.
 
 I also require [Bootstrap 3](http://getbootstrap.com/) via CDN, so you can easily change it out.
 I even use the Firebase CDN as well, just in case you decide you don't like Firebase anymore.
+
+But I hope you decide you still like me.
 
 Here's how to start using me:
 
@@ -24,5 +26,6 @@ Here's how to start using me:
 7. `npm start` (this uses webpack-dev-server)
 
 I think this is the beginning of a beautiful friendship.
+
 If you notice any issues, please put them here in my GitHub.
 Thanks!

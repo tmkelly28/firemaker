@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-import LoginView from './Login.view';
 import LoginLocal from './Login.local';
 import { logIn, logOut } from '../../reducer/user';
 
@@ -13,4 +12,4 @@ export default connect(
     logOut: () =>
       dispatch(logOut())
   })
-)(LoginLocal(LoginView));
+)(LoginLocal);
