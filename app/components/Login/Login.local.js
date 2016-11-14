@@ -10,14 +10,10 @@ export default class LoginLocal extends Component {
       pwd: ''
     };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleJoin = this.handleJoin.bind(this);
-    this.handleLogOut = this.handleLogOut.bind(this);
-
     this.methods = {
-      handleChange: this.handleChange,
-      handleJoin: this.handleJoin,
-      handleLogOut: this.handleLogOut
+      handleChange: this.handleChange.bind(this),
+      handleJoin: this.handleJoin.bind(this),
+      handleLogOut: this.handleLogOut.bind(this)
     };
   }
 
